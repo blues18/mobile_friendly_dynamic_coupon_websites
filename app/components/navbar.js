@@ -5,6 +5,8 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import styles from "../styles/NavigationBar.module.css";
 import { Button, ButtonGroup } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faRightToBracket } from "@fortawesome/free-solid-svg-icons";
 
 //import "../styles/navbar.css";
 
@@ -31,6 +33,13 @@ export default function navigationBar() {
                 <Button variant="outline-light">Sign Up</Button>
                 <Button variant="outline-light">Log In</Button>
               </ButtonGroup>
+              <Nav.Link eventKey="disabled" disabled>
+                <FontAwesomeIcon
+                  icon={faRightToBracket}
+                  size="2xl"
+                  style={{ color: "#ffffff" }}
+                />
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

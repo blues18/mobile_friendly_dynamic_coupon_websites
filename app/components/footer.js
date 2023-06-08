@@ -1,6 +1,10 @@
 import styles from "../styles/footer.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faFacebookSquare, faInstagram, faInstagramSquare, faTwitter, faTwitterSquare } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebookSquare,
+  faInstagramSquare,
+  faTwitterSquare,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function footer() {
   return (
@@ -26,9 +30,9 @@ export default function footer() {
             </div>
           </div>
 
-          <div className="column link">
-            <h3>Links</h3>
-            <ul>
+          <div className={styles.column}>
+            <h3 className={styles.h3}>Links</h3>
+            <ul className={styles.ul}>
               <li>
                 <a href="#home">Home</a>
               </li>
@@ -44,12 +48,20 @@ export default function footer() {
             </ul>
           </div>
 
-          <div className="column subscribe">
-            <h3>Newsletter</h3>
+          <div className={styles.column}>
+            <h3>Any Question?</h3>
+            <div>
+              <input
+                className={styles.input}
+                type="email"
+                placeholder="Your email id here"
+              />
+              <button className={styles.button}>Subscribe</button>
+            </div>
           </div>
         </div>
 
-        <div className="row copyright">
+        <div className={styles.copyright.row}>
           <div className="footer-menu">
             <a href="">sccci.org.sg</a>
           </div>

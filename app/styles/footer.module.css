@@ -7,7 +7,7 @@
 }
 
 .footer{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     bottom: 0;
     width: 100vw;
@@ -65,9 +65,24 @@
   margin: 0;
 }
 
+.input{
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
 
 .button {
-  background-color: #c7940a;
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.button {
+  background-color: #88857d;
   color: #ffffff;
 }
 .div.social {
