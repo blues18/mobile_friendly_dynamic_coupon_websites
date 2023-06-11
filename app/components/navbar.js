@@ -24,7 +24,6 @@ export default function navigationBar() {
             <Nav>
               {" "}
               //right nav item
-              <Nav.Link href="Home">Home</Nav.Link>
               <Nav.Link href="#Shop_Coupon">Shop Coupon</Nav.Link>
               <Nav.Link eventKey={2} href="About">
                 About
