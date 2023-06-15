@@ -33,7 +33,10 @@ export default function header() {
                 Electronic Day
               </Navbar.Brand>
             </Nav>
-            <Nav id="itemSelector" className="justify-content-center">
+            <Nav
+              id="itemSelector"
+              className="justify-content-center text-white"
+            >
               <Nav.Item>
                 <Nav.Link href="#home">Home</Nav.Link>
               </Nav.Item>
@@ -61,7 +64,7 @@ export default function header() {
                   className="me-2"
                   aria-label="Search"
                 />
-                <Button variant="outline-dark">
+                <Button variant="outline-light">
                   <FontAwesomeIcon
                     icon={faMagnifyingGlass}
                     rotation={90}

@@ -3,9 +3,10 @@ import { Inter } from "next/font/google";
 import React from "react";
 import Header from "./components/header";
 import Footer from "./components/footer";
-import NavigationBar from "./components/navbar";
+import NavigationBar from "./navbar";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
+
 
 config.autoAddCss = false;
 

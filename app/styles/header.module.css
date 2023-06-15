@@ -1,10 +1,11 @@
 .navContainer {
   background-image: linear-gradient(
     to right,
-    rgb(151, 216, 225),
-    rgb(20, 127, 111)
+    rgb(206, 213, 220),
+    rgb(185, 203, 201)
   );
   border-radius: 10px;
+  border-width: 1px;
   margin-top: 10px;
 }
 
@@ -12,6 +13,6 @@
   color: #c7940a;
 }
 
-.Nav-Link {
-  color: #ffffff;
+.textcolor{
+  color: #FFFFFF
 }
