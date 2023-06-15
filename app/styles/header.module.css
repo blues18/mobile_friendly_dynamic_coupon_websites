@@ -1,0 +1,18 @@
+.navContainer {
+  background-image: linear-gradient(
+    to right,
+    rgb(206, 213, 220),
+    rgb(185, 203, 201)
+  );
+  border-radius: 10px;
+  border-width: 1px;
+  margin-top: 10px;
+}
+
+.Nav-Link-hover:hover {
+  color: #c7940a;
+}
+
+.textcolor{
+  color: #FFFFFF
+}
