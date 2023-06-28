@@ -26,15 +26,15 @@ export default function navigationBar() {
               {" "}
               //right nav item
               <Nav.Link href="#Shop_Coupon">Shop Coupon</Nav.Link>
-              <Nav.Link eventKey={2} href="About">
+              <Nav.Link eventKey={2} href="/about">
                 About
               </Nav.Link>
               <ButtonGroup bsSize="xsmall">
                 <Button variant="outline-light">
-                  <Nav.Link href="/pages/sign">Sign Up </Nav.Link>
+                  <Nav.Link href="/pages/consumer_sign">Sign Up </Nav.Link>
                 </Button>
                 <Button variant="outline-light">
-                  <Nav.Link href="/">Log In</Nav.Link>
+                  <Nav.Link href="/pages/consumer_login">Log In</Nav.Link>
                 </Button>
               </ButtonGroup>
               <Nav.Link eventKey="disabled" disabled>
